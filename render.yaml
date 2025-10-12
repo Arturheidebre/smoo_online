@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: smoo-server
+    env: docker
+    plan: free
+    buildCommand: "dotnet build -c Release"
+    startCommand: "dotnet run --project Server/Server.csproj -c Release"
+    envVars:
+      - key: PORT
+        value: 8080
