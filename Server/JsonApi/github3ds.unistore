@@ -1,0 +1,44 @@
+{
+  "storeInfo": {
+    "title": "github3ds Store",
+    "author": "github3ds Team",
+    "description": "Offizieller Store für github3ds – GitHub direkt auf dem 3DS!",
+    "url": "https://raw.githubusercontent.com/yourusername/yourrepo/main/github3ds.unistore",
+    "file": "github3ds.unistore",
+    "version": 3,
+    "revision": 1
+  },
+  "storeContent": [
+    {
+      "info": {
+        "title": "github3ds",
+        "author": "github3ds Team",
+        "version": "v1.0",
+        "category": ["utility"],
+        "console": ["3DS"],
+        "description": "GitHub direkt auf dem Nintendo 3DS nutzen.",
+        "license": "unknown",
+        "icon_index": 0,
+        "last_updated": "2025-01-01 00:00 (UTC)"
+      },
+      "github3ds.cia installieren": [
+        {
+          "type": "downloadFile",
+          "file": "https://cdn.discordapp.com/attachments/1481683941218844682/1488476113356324984/github3ds.cia?ex=69cceae7&is=69cb9967&hm=d4523dfd3e63d1018e639a28c19d86abc4787ea50e09339e643315a780049639&",
+          "output": "sdmc:/github3ds.cia",
+          "message": "Lade github3ds herunter..."
+        },
+        {
+          "type": "installCia",
+          "file": "/github3ds.cia",
+          "message": "Installiere github3ds..."
+        },
+        {
+          "type": "deleteFile",
+          "file": "sdmc:/github3ds.cia",
+          "message": "Räume temporäre Dateien auf..."
+        }
+      ]
+    }
+  ]
+}
