@@ -3,7 +3,7 @@
     "title": "github3ds Store",
     "author": "github3ds Team",
     "description": "Offizieller Store für github3ds – GitHub direkt auf dem 3DS!",
-    "url": "https://raw.githubusercontent.com/yourusername/yourrepo/main/github3ds.unistore",
+    "url": "https://raw.githubusercontent.com/Arturheidebre/smoo_online/refs/heads/master/Server/JsonApi/github3ds.unistore",
     "file": "github3ds.unistore",
     "version": 3,
     "revision": 1
