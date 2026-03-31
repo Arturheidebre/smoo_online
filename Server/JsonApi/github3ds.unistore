@@ -4,9 +4,11 @@
     "author": "github3ds Team",
     "description": "The GitHub3DS UniStore",
     "url": "https://raw.githubusercontent.com/Arturheidebre/smoo_online/refs/heads/master/Server/JsonApi/github3ds.unistore",
+    "sheet": "https://raw.githubusercontent.com/Arturheidebre/smoo_online/master/Server/JsonApi/github3ds.t3x",
+    "sheetURL": "https://raw.githubusercontent.com/Arturheidebre/smoo_online/master/Server/JsonApi/github3ds.t3x"
     "file": "github3ds.unistore",
     "version": 3,
-    "revision": 2
+    "revision": 3
   },
   "storeContent": [
     {
@@ -18,7 +20,6 @@
         "console": ["3DS"],
         "description": "GitHub Client for 3DS",
         "license": "GNU GPL v3",
-        "icon": "https://media.discordapp.net/attachments/1482760749708349491/1488485910994751508/icon.png?ex=69ccf407&is=69cba287&hm=ee60403663d127944a285e7f709a612ace775ffea5a1daf6046958470842d7cc&=&format=webp&quality=lossless&width=53&height=53",
         "icon_index": 0,
         "last_updated": "2026-03-31 12:00 (UTC)"
       },
