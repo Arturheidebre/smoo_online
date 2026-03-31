@@ -2,41 +2,42 @@
   "storeInfo": {
     "title": "github3ds Store",
     "author": "github3ds Team",
-    "description": "Offizieller Store für github3ds – GitHub direkt auf dem 3DS!",
+    "description": "The GitHub3DS UniStore",
     "url": "https://raw.githubusercontent.com/Arturheidebre/smoo_online/refs/heads/master/Server/JsonApi/github3ds.unistore",
     "file": "github3ds.unistore",
     "version": 3,
-    "revision": 1
+    "revision": 2
   },
   "storeContent": [
     {
       "info": {
-        "title": "github3ds",
-        "author": "github3ds Team",
+        "title": "GitHub3DS",
+        "author": "Morris, Artendo",
         "version": "v1.0",
         "category": ["utility"],
         "console": ["3DS"],
-        "description": "GitHub direkt auf dem Nintendo 3DS nutzen.",
-        "license": "unknown",
+        "description": "GitHub Client for 3DS",
+        "license": "GNU GPL v3",
+        "icon": "https://media.discordapp.net/attachments/1482760749708349491/1488485910994751508/icon.png?ex=69ccf407&is=69cba287&hm=ee60403663d127944a285e7f709a612ace775ffea5a1daf6046958470842d7cc&=&format=webp&quality=lossless&width=53&height=53",
         "icon_index": 0,
-        "last_updated": "2025-01-01 00:00 (UTC)"
+        "last_updated": "2026-03-31 12:00 (UTC)"
       },
       "github3ds.cia installieren": [
         {
           "type": "downloadFile",
           "file": "https://cdn.discordapp.com/attachments/1481683941218844682/1488476113356324984/github3ds.cia?ex=69cceae7&is=69cb9967&hm=d4523dfd3e63d1018e639a28c19d86abc4787ea50e09339e643315a780049639&",
           "output": "sdmc:/github3ds.cia",
-          "message": "Lade github3ds herunter..."
+          "message": "Downloading GitHub3DS..."
         },
         {
           "type": "installCia",
           "file": "/github3ds.cia",
-          "message": "Installiere github3ds..."
+          "message": "Installing GitHub3DS..."
         },
         {
           "type": "deleteFile",
           "file": "sdmc:/github3ds.cia",
-          "message": "Räume temporäre Dateien auf..."
+          "message": "Deleting Installation Files..."
         }
       ]
     }
